@@ -12,28 +12,28 @@ const Pagination = () => {
 }
 function Home() {
   return (
-    <div className='column-12'>
+    <div className='flex flex-row'>
       {/* side bar div */}
-      <div className='column-4'>
-        <div className='column-4'>
+      <div className=' flex flex-row'>
+        <div className='w-12 md:w-68 bg-slate-50 '>
           <SideStrip />
         </div>
-        <div className='column-8'>
+        <div className='w-40 lg:w-296 bg-slate-100'>
           <SideBar />
         </div>
       </div>
       {/* main content div */}
-      <div className='column-8'>
-        <div className='column-8'>
+      <div className='p-0 flex-auto'>
+        <div className=''>
           <NavBar />
         </div>
-        <div className='column-8'>
+        <div className=''>
           <Banner />
         </div>
-        <div className='column-8'>
+        <div className=''>
           <Table />
         </div>
-        <div className='column-2'>
+        <div className=''>
           <Pagination />
         </div>
       </div>
