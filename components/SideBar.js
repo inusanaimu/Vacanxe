@@ -2,17 +2,52 @@ import logo from '../image/logo.svg'
 
 function SideBar() {
   return (
-    <div className=' bg-gray-100 p-4 flex flex-col space-y-4'>
-      <div className='w-full h-10 text-center bg-green-400 mx-auto mb-4'>
+    <div className='bg-gray-100 p-4 flex flex-col space-y-4'>
+      <div className='w-full h-10 text-center bg-green-400 mx-auto mb-6'>
         <h1>logo</h1>
       </div>
-      <div className='bg-red-200 h-64'>
-        <div>
-          <h1>Job opening</h1> <span></span>
+      <div className='border mb-6'>
+        <a href='#'>
+          <div className='flex justify-between'>
+            <h3 className='inline'>
+              <b>Job opening </b>
+            </h3>
+            <span className=''>
+              <svg
+                xmlns='http://www.w3.org/2000/svg'
+                class='h-4 w-4'
+                fill='none'
+                viewBox='0 0 24 24'
+                stroke='currentColor'
+                stroke-width='2'
+              >
+                <path d='M19 9l-7 7-7-7' />
+              </svg>
+            </span>
+          </div>
+        </a>
+        <div className='text-xs w-11/12 pl-2 block pt-3 '>
+          <h3 className=' p-2'>Creating job ads</h3>
+          <h3 className=' p-2 rounded-sm bg-slate-800 text-white'>
+            Managing current job ads
+          </h3>
+          <h3 className=' p-2'>Pre-employment assessment</h3>
         </div>
-        <div></div>
       </div>
-      <div className='bg-red-200 h-64'></div>
+
+      <div className=''>
+        <div className=' text-center rounded w-full h-auto bg-orange-400 mx-auto text-white text-sm p-3'>
+          <div className='text-left'>
+            <h2 className='text-sm'>Your plan expires in 7 days</h2>
+            <h4 className='text-xs'>
+              Extend your plan now to maintain our premium features
+            </h4>
+          </div>
+          <button className=' rounded-sm mx-auto w-11/12 bg-blue-500 text-center px-4 py-2 my-2'>
+            Extend your plan
+          </button>
+        </div>
+      </div>
     </div>
   )
 }
