@@ -24,7 +24,7 @@ function NavBar() {
                 <input
                   type='text'
                   id='search-navbar'
-                  className='block p-2 pl-10 w-full text-gray-900 bg-gray-50 rounded-md border border-gray-300 sm:text-sm   dark:border-gray-200 dark:placeholder-gray-600 dark:text-black'
+                  className='block py-2 pl-10 pr-20 w-full text-gray-900 bg-gray-50 rounded-md border border-gray-300 sm:text-sm   dark:border-gray-200 dark:placeholder-gray-600 dark:text-black'
                   placeholder='Input job title'
                 />
               </div>
@@ -40,6 +40,12 @@ function NavBar() {
                     </div>
                   </div>
                 </div>
+              </div>
+              <div className='rounded-full bg-slate-600 h-6 w-6 mr-4'>
+                <div className='rounded-full bg-orange-400 h-2 w-2'></div>
+              </div>
+              <div className='rounded-full bg-slate-600 h-6 w-6 mr-4'>
+                <div className='rounded-full bg-orange-400 h-2 w-2'></div>
               </div>
             </div>
           </div>

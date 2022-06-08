@@ -9,16 +9,16 @@ function Table() {
             <tr>
               <th scope='col' className='p-1'>
                 <div className='flex items-center p-3 border-r-2'>
-                  <input
+                  {/* <input
                     id='checkbox-table-search-1'
                     type='checkbox'
                     className='w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600'
                   />
-                  <label className='sr-only'>checkbox</label>
+                  <label className='sr-only'>checkbox</label> */}
                 </div>
               </th>
               <th scope='col' className='py-1'>
-                <div className=' pl-6 py-2 border-r'>Position name</div>
+                <div className='px-6 py-2 border-r'>Position name</div>
               </th>
               <th scope='col' className='py-1'>
                 <div className='px-6 py-2 border-r'>Employment</div>
@@ -38,7 +38,7 @@ function Table() {
             </tr>
           </thead>
           <tbody>
-            <tr className='border-b  text-gray-900 bg-white dark:border-slate-200  dark:hover:bg-slate-100'>
+            <tr className='border-b text-gray-900 bg-white dark:border-slate-200  dark:hover:bg-slate-100'>
               <td className='w-4 p-1'>
                 <div className='flex items-center p-3 border-r-2'>
                   <input
@@ -51,16 +51,20 @@ function Table() {
               </td>
               <th
                 scope='row'
-                className='px-6 py-1 font-medium  whitespace-nowrap'
+                className='px py-1 font-medium  whitespace-nowrap'
               >
                 <div className='py-3 border-r-2'>Digital Marketing </div>
               </th>
-              <td className='px-6 py-4 '>Contract</td>
-              <td className='px-6 py-4'>30 June 2022</td>
-              <td className='px-6 py-4'>103</td>
-              <td className='px-6 py-4 text-right'>
+              <td className='px py-1 '>
+                <div className='border-r-2 py-3 '> Contract</div>
+              </td>
+              <td className='px py-4'>
+                <div>30 June 2022</div>
+              </td>
+              <td className='px py-4'>103</td>
+              <td className='px py-4 text-right'>
                 <a href='#' className=' text-center font-medium '>
-                  <Boost />
+                  <Boost valid={true} />
                 </a>
               </td>
               <td className='px-6 py-4 text-right'>
@@ -83,11 +87,13 @@ function Table() {
               </td>
               <th
                 scope='row'
-                className='px-6 py-1 font-medium  whitespace-nowrap'
+                className='px py-1 font-medium  whitespace-nowrap'
               >
                 <div className='py-3 border-r-2'>Digital Marketing </div>
               </th>
-              <td className='px-6 py-4 '>Contract</td>
+              <td className='px py-1 '>
+                <div className='border-r-2 py-3 '> Contract</div>
+              </td>
               <td className='px-6 py-4'>30 June 2022</td>
               <td className='px-6 py-4'>103</td>
               <td className='px-6 py-4 text-right'>
@@ -96,7 +102,6 @@ function Table() {
                 </a>
               </td>
               <td className='px-6 py-4 text-right'>
-                {' '}
                 <a href='#' className=' text-center font-medium '>
                   . . .
                 </a>
@@ -115,20 +120,21 @@ function Table() {
               </td>
               <th
                 scope='row'
-                className='px-6 py-1 font-medium  whitespace-nowrap'
+                className='px py-1 font-medium  whitespace-nowrap'
               >
                 <div className='py-3 border-r-2'>Digital Marketing </div>
               </th>
-              <td className='px-6 py-4 '>Contract</td>
-              <td className='px-6 py-4'>30 June 2022</td>
-              <td className='px-6 py-4'>103</td>
-              <td className='px-6 py-4 text-right'>
+              <td className='px py-1 '>
+                <div className='border-r-2 py-3 '> Contract</div>
+              </td>
+              <td className='px py-4'>30 June 2022</td>
+              <td className='px py-4'>103</td>
+              <td className='px py-4 text-right'>
                 <a href='#' className=' text-center font-medium '>
-                  <Boost />
+                  <Boost valid={true} />
                 </a>
               </td>
               <td className='px-6 py-4 text-right'>
-                {' '}
                 <a href='#' className=' text-center font-medium '>
                   . . .
                 </a>
@@ -147,25 +153,26 @@ function Table() {
               </td>
               <th
                 scope='row'
-                className='px-6 py-1 font-medium  whitespace-nowrap'
+                className='px py-1 font-medium  whitespace-nowrap'
               >
                 <div className='py-3 border-r-2'>Digital Marketing </div>
               </th>
-              <td className='px-6 py-4 '>Contract</td>
-              <td className='px-6 py-4'>30 June 2022</td>
-              <td className='px-6 py-4'>103</td>
-              <td className='px-6 py-4 text-right'>
+              <td className='px py-1 '>
+                <div className='border-r-2 py-3 '> Contract</div>
+              </td>
+              <td className='px py-4'>30 June 2022</td>
+              <td className='px py-4'>103</td>
+              <td className='px py-4 text-right'>
                 <a href='#' className=' text-center font-medium '>
                   <Boost />
                 </a>
               </td>
-              <td className='px-6 py-4 text-right'>
-                {' '}
+              <td className='px py-4 text-right'>
                 <a href='#' className=' text-center font-medium '>
                   . . .
                 </a>
               </td>
-            </tr>{' '}
+            </tr>
             <tr className='border-b  text-gray-900 bg-white dark:border-slate-200  dark:hover:bg-slate-100'>
               <td className='w-4 p-1'>
                 <div className='flex items-center p-3 border-r-2'>
@@ -179,20 +186,21 @@ function Table() {
               </td>
               <th
                 scope='row'
-                className='px-6 py-1 font-medium  whitespace-nowrap'
+                className='px py-1 font-medium  whitespace-nowrap'
               >
                 <div className='py-3 border-r-2'>Digital Marketing </div>
               </th>
-              <td className='px-6 py-4 '>Contract</td>
-              <td className='px-6 py-4'>30 June 2022</td>
-              <td className='px-6 py-4'>103</td>
-              <td className='px-6 py-4 text-right'>
+              <td className='px py-1 '>
+                <div className='border-r-2 py-3 '> Contract</div>
+              </td>
+              <td className='px py-4'>30 June 2022</td>
+              <td className='px py-4'>103</td>
+              <td className='px py-4 text-right'>
                 <a href='#' className=' text-center font-medium '>
                   <Boost />
                 </a>
               </td>
-              <td className='px-6 py-4 text-right'>
-                {' '}
+              <td className='px py-4 text-right'>
                 <a href='#' className=' text-center font-medium '>
                   . . .
                 </a>

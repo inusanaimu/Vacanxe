@@ -1,6 +1,6 @@
 function Paggination() {
   return (
-    <div className='m-4 absolute'>
+    <div className='m-4 absolute bottom-6'>
       <a href=''>
         <span className=' mr-2 inline-flex items-center p-2 text-sm font-semibold rounded-sm dark:bg-white text-slate-800'>
           <svg

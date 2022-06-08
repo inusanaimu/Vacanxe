@@ -2,40 +2,84 @@ import logo from '../image/logo.svg'
 
 function SideBar() {
   return (
-    <div className='bg-gray-100 p-4 flex flex-col space-y-4'>
-      <div className='w-full h-10 text-center bg-green-400 mx-auto mb-6'>
+    <div className='bg-white p-4 flex flex-col space-y-4'>
+      <div className='w-full h-10 text-center bg-gray-100 rounded-lg  mx-auto mb-6'>
         <h1>logo</h1>
       </div>
-      <div className='border mb-6'>
-        <a href='#'>
-          <div className='flex justify-between'>
-            <h3 className='inline'>
-              <b>Job opening </b>
-            </h3>
-            <span className=''>
-              <svg
-                xmlns='http://www.w3.org/2000/svg'
-                class='h-4 w-4'
-                fill='none'
-                viewBox='0 0 24 24'
-                stroke='currentColor'
-                stroke-width='2'
-              >
-                <path d='M19 9l-7 7-7-7' />
-              </svg>
-            </span>
-          </div>
-        </a>
-        <div className='text-xs w-11/12 pl-2 block pt-3 '>
+      <div className=''>
+        <div>
+          <a href='#'>
+            <div className='flex justify-between'>
+              <h3 className='inline'>
+                <b>Job opening </b>
+              </h3>
+              <span className=''>
+                <svg
+                  xmlns='http://www.w3.org/2000/svg'
+                  class='h-4 w-4'
+                  fill='none'
+                  viewBox='0 0 24 24'
+                  stroke='currentColor'
+                  stroke-width='2'
+                >
+                  <path d='M19 9l-7 7-7-7' />
+                </svg>
+              </span>
+            </div>
+          </a>
+        </div>
+        <div className='text-xs w-11/12 pl-2 block py-3 '>
           <h3 className=' p-2'>Creating job ads</h3>
           <h3 className=' p-2 rounded-sm bg-slate-800 text-white'>
             Managing current job ads
           </h3>
           <h3 className=' p-2'>Pre-employment assessment</h3>
         </div>
+        <div className=' mb-6'>
+          <a href='#'>
+            <div className='flex justify-between'>
+              <h3 className='inline'>
+                <b>Job opening </b>
+              </h3>
+              <span className=''>
+                <svg
+                  xmlns='http://www.w3.org/2000/svg'
+                  class='h-4 w-4'
+                  fill='none'
+                  viewBox='0 0 24 24'
+                  stroke='currentColor'
+                  stroke-width='2'
+                >
+                  <path d='M19 9l-7 7-7-7' />
+                </svg>
+              </span>
+            </div>
+          </a>
+        </div>
+        <div className='mb-6'>
+          <a href='#'>
+            <div className='flex justify-between'>
+              <h3 className='inline'>
+                <b>Job opening </b>
+              </h3>
+              <span className=''>
+                <svg
+                  xmlns='http://www.w3.org/2000/svg'
+                  class='h-4 w-4'
+                  fill='none'
+                  viewBox='0 0 24 24'
+                  stroke='currentColor'
+                  stroke-width='2'
+                >
+                  <path d='M19 9l-7 7-7-7' />
+                </svg>
+              </span>
+            </div>
+          </a>
+        </div>
       </div>
 
-      <div className=''>
+      <div className='pt-40'>
         <div className=' text-center rounded w-full h-auto bg-orange-400 mx-auto text-white text-sm p-3'>
           <div className='text-left'>
             <h2 className='text-sm'>Your plan expires in 7 days</h2>
