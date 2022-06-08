@@ -56,18 +56,22 @@ function Table() {
                 <div className='py-3 border-r-2'>Digital Marketing </div>
               </th>
               <td className='px py-1 '>
-                <div className='border-r-2 py-3 '> Contract</div>
+                <div className='border-r-2 py-2 '> Contract</div>
               </td>
-              <td className='px py-4'>
-                <div>30 June 2022</div>
+              <td className='px py-1'>
+                <div className='border-r-2 py-2 '> 30 June 2022</div>
               </td>
-              <td className='px py-4'>103</td>
-              <td className='px py-4 text-right'>
-                <a href='#' className=' text-center font-medium '>
-                  <Boost valid={true} />
-                </a>
+              <td className='px py-1'>
+                <div className='border-r-2 py-2 '> 103</div>
               </td>
-              <td className='px-6 py-4 text-right'>
+              <td className='px py-1 text-right'>
+                <div className='border-r-2 py-2 '>
+                  <a href='#' className=' text-center font-medium '>
+                    <Boost valid={true} />
+                  </a>
+                </div>
+              </td>
+              <td className='px py-4 text-center'>
                 {' '}
                 <a href='#' className=' text-center font-medium '>
                   . . .
@@ -92,16 +96,23 @@ function Table() {
                 <div className='py-3 border-r-2'>Digital Marketing </div>
               </th>
               <td className='px py-1 '>
-                <div className='border-r-2 py-3 '> Contract</div>
+                <div className='border-r-2 py-2 '> Contract</div>
               </td>
-              <td className='px-6 py-4'>30 June 2022</td>
-              <td className='px-6 py-4'>103</td>
-              <td className='px-6 py-4 text-right'>
-                <a href='#' className=' text-center font-medium '>
-                  <Boost />
-                </a>
+              <td className='px py-1'>
+                <div className='border-r-2 py-2 '> 30 June 2022</div>
               </td>
-              <td className='px-6 py-4 text-right'>
+              <td className='px py-1'>
+                <div className='border-r-2 py-2 '> 103</div>
+              </td>
+
+              <td className='px py-1 text-right'>
+                <div className='border-r-2 py-2 '>
+                  <a href='#' className=' text-center font-medium '>
+                    <Boost />
+                  </a>
+                </div>
+              </td>
+              <td className='px-6 py-4 text-center'>
                 <a href='#' className=' text-center font-medium '>
                   . . .
                 </a>
@@ -125,16 +136,22 @@ function Table() {
                 <div className='py-3 border-r-2'>Digital Marketing </div>
               </th>
               <td className='px py-1 '>
-                <div className='border-r-2 py-3 '> Contract</div>
+                <div className='border-r-2 py-2 '> Contract</div>
               </td>
-              <td className='px py-4'>30 June 2022</td>
-              <td className='px py-4'>103</td>
-              <td className='px py-4 text-right'>
-                <a href='#' className=' text-center font-medium '>
-                  <Boost valid={true} />
-                </a>
+              <td className='px py-1'>
+                <div className='border-r-2 py-2 '> 30 June 2022</div>
               </td>
-              <td className='px-6 py-4 text-right'>
+              <td className='px py-1'>
+                <div className='border-r-2 py-2 '> 103</div>
+              </td>
+              <td className='px py-1 text-right'>
+                <div className='border-r-2 py-2 '>
+                  <a href='#' className=' text-center font-medium '>
+                    <Boost valid={true} />
+                  </a>
+                </div>
+              </td>{' '}
+              <td className='px-6 py-4 text-center'>
                 <a href='#' className=' text-center font-medium '>
                   . . .
                 </a>
@@ -158,16 +175,22 @@ function Table() {
                 <div className='py-3 border-r-2'>Digital Marketing </div>
               </th>
               <td className='px py-1 '>
-                <div className='border-r-2 py-3 '> Contract</div>
+                <div className='border-r-2 py-2 '> Contract</div>
               </td>
-              <td className='px py-4'>30 June 2022</td>
-              <td className='px py-4'>103</td>
-              <td className='px py-4 text-right'>
-                <a href='#' className=' text-center font-medium '>
-                  <Boost />
-                </a>
+              <td className='px py-1'>
+                <div className='border-r-2 py-2 '> 30 June 2022</div>
+              </td>{' '}
+              <td className='px py-1'>
+                <div className='border-r-2 py-2 '> 103</div>
               </td>
-              <td className='px py-4 text-right'>
+              <td className='px py-1 text-right'>
+                <div className='border-r-2 py-2 '>
+                  <a href='#' className=' text-center font-medium '>
+                    <Boost />
+                  </a>
+                </div>
+              </td>{' '}
+              <td className='px-6 py-4 text-center'>
                 <a href='#' className=' text-center font-medium '>
                   . . .
                 </a>
@@ -191,16 +214,22 @@ function Table() {
                 <div className='py-3 border-r-2'>Digital Marketing </div>
               </th>
               <td className='px py-1 '>
-                <div className='border-r-2 py-3 '> Contract</div>
+                <div className='border-r-2 py-2 '> Contract</div>
               </td>
-              <td className='px py-4'>30 June 2022</td>
-              <td className='px py-4'>103</td>
-              <td className='px py-4 text-right'>
-                <a href='#' className=' text-center font-medium '>
-                  <Boost />
-                </a>
+              <td className='px py-1'>
+                <div className='border-r-2 py-2 '> 30 June 2022</div>
               </td>
-              <td className='px py-4 text-right'>
+              <td className='px py-1'>
+                <div className='border-r-2 py-2 '> 103</div>
+              </td>
+              <td className='px py-1 text-right'>
+                <div className='border-r-2 py-2 '>
+                  <a href='#' className=' text-center font-medium '>
+                    <Boost />
+                  </a>
+                </div>
+              </td>
+              <td className='px-6 py-4 text-center'>
                 <a href='#' className=' text-center font-medium '>
                   . . .
                 </a>
