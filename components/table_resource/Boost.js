@@ -5,7 +5,7 @@ const Btn = (props) => {
     return (
       <div>
         <button
-          type='button '
+          type='button'
           className='w-32 text-xs rounded-md bg-slate-300 px-3 py-2 text-gray-600'
         >
           <b>Opening Boosted</b>
@@ -16,7 +16,7 @@ const Btn = (props) => {
     return (
       <div>
         <button
-          type='button '
+          type='button'
           className='w-32 text-xs rounded-md px-3 py-2 text-gray-800 bg-orange-300'
         >
           <b>Boost opening</b>
