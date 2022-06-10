@@ -1,10 +1,10 @@
-import logo from '../image/logo.svg'
+import Logo from '../image/logo.svg'
 
 function SideBar() {
   return (
     <div className='bg-white p-4 flex flex-col space-y-4'>
-      <div className='w-full h-10 text-center bg-gray-100 rounded-lg  mx-auto mb-6'>
-        <h1>logo</h1>
+      <div className=' pl-10  mb-6'>
+        <Logo />
       </div>
       <div className=''>
         <div>
@@ -16,11 +16,11 @@ function SideBar() {
               <span className=''>
                 <svg
                   xmlns='http://www.w3.org/2000/svg'
-                  class='h-4 w-4'
+                  className='h-4 w-4'
                   fill='none'
                   viewBox='0 0 24 24'
                   stroke='currentColor'
-                  stroke-width='2'
+                  strokeWidth='2'
                 >
                   <path d='M19 9l-7 7-7-7' />
                 </svg>
@@ -30,7 +30,7 @@ function SideBar() {
         </div>
         <div className='text-xs w-11/12 pl-2 block py-3 '>
           <h3 className=' p-2'>Creating job ads</h3>
-          <h3 className=' p-2 rounded-sm bg-slate-800 text-white'>
+          <h3 className=' p-2 rounded bg-slate-800 text-white'>
             Managing current job ads
           </h3>
           <h3 className=' p-2'>Pre-employment assessment</h3>
@@ -44,11 +44,11 @@ function SideBar() {
               <span className=''>
                 <svg
                   xmlns='http://www.w3.org/2000/svg'
-                  class='h-4 w-4'
+                  className='h-4 w-4'
                   fill='none'
                   viewBox='0 0 24 24'
                   stroke='currentColor'
-                  stroke-width='2'
+                  strokeWidth='2'
                 >
                   <path d='M19 9l-7 7-7-7' />
                 </svg>
@@ -65,11 +65,11 @@ function SideBar() {
               <span className=''>
                 <svg
                   xmlns='http://www.w3.org/2000/svg'
-                  class='h-4 w-4'
+                  className='h-4 w-4'
                   fill='none'
                   viewBox='0 0 24 24'
                   stroke='currentColor'
-                  stroke-width='2'
+                  strokeWidth='2'
                 >
                   <path d='M19 9l-7 7-7-7' />
                 </svg>
