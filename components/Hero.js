@@ -1,6 +1,6 @@
 function Hero() {
   return (
-    <div className='grid grid-cols-2 border pb-0 pt-6 px-10 bg-white'>
+    <div className='grid grid-cols-2 border pb-0 pt-2 px-10 bg-white'>
       <div className='pb-0 mb-0 relative'>
         <ul className=' text-sm absolute bottom-0'>
           <li className='px-2 border-b-4 pb-0 mb-0 border-gray-800 inline-block'>

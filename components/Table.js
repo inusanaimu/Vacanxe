@@ -3,7 +3,7 @@ import TableRow from './table_resource/TableRow'
 function Table() {
   return (
     <div>
-      <div className='w-11/12 mt-16 mx-auto overflow-x-auto '>
+      <div className='w-11/12 mt-8 mx-auto overflow-x-auto '>
         <table className='w-full text-sm border text-left text-gray-500 dark:text-gray-400'>
           <thead className='text-sm text-gray-700 capitalize bg-gray-50 dark:bg-gray-900 dark:text-gray-100'>
             <tr>
