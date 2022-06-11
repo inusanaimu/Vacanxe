@@ -18,16 +18,66 @@ function Table() {
                 </div>
               </th>
               <th scope='col' className='py-1'>
-                <div className='px-6 py-2 border-r'>Position name</div>
+                <div className='px-6 py-2 border-r'>
+                  <svg
+                    xmlns='http://www.w3.org/2000/svg'
+                    className='h-6 w-6 inline'
+                    fill='none'
+                    viewBox='0 0 24 24'
+                    stroke='currentColor'
+                    strokeWidth={1.5}
+                  >
+                    <path
+                      strokeLinecap='round'
+                      strokeLinejoin='round'
+                      d='M8 9l4-4 4 4m0 6l-4 4-4-4'
+                    />
+                  </svg>
+                  Position name
+                </div>
               </th>
               <th scope='col' className='py-1'>
                 <div className='px-6 py-2 border-r'>Employment</div>
               </th>
               <th scope='col' className='py-1'>
-                <div className='px-6 py-2 border-r'>Date closed</div>
+                <div className='px-6 py-2 border-r'>
+                  {' '}
+                  <svg
+                    xmlns='http://www.w3.org/2000/svg'
+                    className='h-6 w-6 inline'
+                    fill='none'
+                    viewBox='0 0 24 24'
+                    stroke='currentColor'
+                    strokeWidth={1.5}
+                  >
+                    <path
+                      strokeLinecap='round'
+                      strokeLinejoin='round'
+                      d='M8 9l4-4 4 4m0 6l-4 4-4-4'
+                    />
+                  </svg>
+                  Date closed
+                </div>
               </th>
               <th scope='col' className='py-1'>
-                <div className='px-6 py-2 border-r'>Application</div>
+                <div className='px-6 py-2 border-r'>
+                  {' '}
+                  <svg
+                    xmlns='http://www.w3.org/2000/svg'
+                    className='h-6 w-6 inline'
+                    fill='none'
+                    viewBox='0 0 24 24'
+                    stroke='currentColor'
+                    strokeWidth={1.5}
+                  >
+                    <path
+                      strokeLinecap='round'
+                      strokeLinejoin='round'
+                      d='M8 9l4-4 4 4m0 6l-4 4-4-4'
+                    />
+                  </svg>
+                  Applicants
+                </div>
               </th>
               <th scope='col' className='py-1'>
                 <div className='px-6 py-2 border-r'>Boost job</div>

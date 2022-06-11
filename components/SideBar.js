@@ -4,7 +4,9 @@ function SideBar() {
   return (
     <div className='bg-white p-4 flex flex-col space-y-4'>
       <div className=' pl-10  mb-6'>
-        <Logo />
+        <a href='#'>
+          <Logo />
+        </a>
       </div>
       <div className=''>
         <div>
@@ -39,7 +41,7 @@ function SideBar() {
           <a href='#'>
             <div className='flex justify-between'>
               <h3 className='inline'>
-                <b>Job opening </b>
+                <b>Applicants pipeline </b>
               </h3>
               <span className=''>
                 <svg
@@ -60,7 +62,7 @@ function SideBar() {
           <a href='#'>
             <div className='flex justify-between'>
               <h3 className='inline'>
-                <b>Job opening </b>
+                <b>Applicants Profile </b>
               </h3>
               <span className=''>
                 <svg
@@ -87,7 +89,7 @@ function SideBar() {
               Extend your plan now to maintain our premium features
             </h4>
           </div>
-          <button className=' rounded-sm mx-auto w-11/12 bg-blue-500 text-center px-4 py-2 my-2'>
+          <button className=' rounded-md mx-auto w-11/12 bg-cyan-500 text-center px-4 py-2 my-2'>
             Extend your plan
           </button>
         </div>

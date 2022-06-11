@@ -53,7 +53,9 @@ function NavBar() {
         <div className='text-slate-400 inline-block text-sm'>
           {' '}
           Jobs and recruiting / Job opening /{' '}
-          <span className='text-blue-400'>Manage current job ad</span>
+          <a href='#' className='text-cyan-500'>
+            Manage current job ad
+          </a>
         </div>
       </nav>
     </div>
