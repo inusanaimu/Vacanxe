@@ -1,11 +1,16 @@
-import Logo from '../image/logo.svg'
+// import Logo from '../image/logo.svg'
+
+import Image from "next/image"
+import Logo from '../public/logo.svg'
 
 function SideBar() {
   return (
     <div className='bg-white p-4 flex flex-col space-y-4'>
       <div className=' pl-10  mb-6'>
         <a href='#'>
-          <Logo />
+          {/* <Logo /> */}
+          {/* <img src='/logo.svg' /> */}
+          <Image src={'/logo.svg'} alt="logo" height={40} width={132} />
         </a>
       </div>
       <div className=''>

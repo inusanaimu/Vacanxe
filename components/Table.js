@@ -5,7 +5,7 @@ function Table() {
     <div>
       <div className='w-11/12 mt-8 mx-auto overflow-x-auto '>
         <table className='w-full text-sm border text-left text-gray-500 dark:text-gray-400'>
-          <thead className='text-sm text-gray-700 capitalize bg-gray-50 dark:bg-gray-900 dark:text-gray-100'>
+          <thead className='text-sm capitalize bg-gray-900 text-gray-100'>
             <tr>
               <th scope='col' className='p-1'>
                 <div className='flex items-center p-3 border-r-2'>
