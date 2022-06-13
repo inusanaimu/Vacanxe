@@ -22,11 +22,9 @@ function TableRow(props) {
         <div className='border-r-2 py-2 '> 103</div>
       </td>
       <td className='px py-1 text-right'>
-        <div className='border-r-2 py-2 '>
-          <a href='#' className=' text-center font-medium '>
-            <Boost valid={props.valid} />
-          </a>
-        </div>
+        <div className=' text-center border-r-2 py-2 '>
+          <Boost valid={props.valid} />
+        </div>{' '}
       </td>
       <td className='px py-4 text-center'>
         <a href='#' className=' text-center font-medium '>

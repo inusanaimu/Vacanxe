@@ -2,7 +2,7 @@ function Paggination() {
   return (
     <div className='m-4 absolute bottom-6'>
       <a href=''>
-        <span className=' mr-2 inline-flex items-center p-2 text-sm font-semibold rounded-sm dark:bg-white text-slate-800'>
+        <span className=' mr-2 inline-flex items-center p-2 text-sm font-semibold rounded-sm bg-white text-slate-800'>
           <svg
             xmlns='http://www.w3.org/2000/svg'
             className='h-5 w-5'
@@ -18,7 +18,7 @@ function Paggination() {
         </span>
       </a>
       <a href=''>
-        <span className=' mr-2 inline-flex items-center p-2 text-sm font-semibold rounded-sm dark:bg-slate-800 text-slate-100'>
+        <span className=' mr-2 inline-flex items-center p-2 text-sm font-semibold rounded-sm bg-slate-800 text-slate-100'>
           <svg
             className='w-5 h-5'
             fill='currentColor'
@@ -34,7 +34,7 @@ function Paggination() {
         </span>{' '}
       </a>
       <a href=''>
-        <span className=' mr-2 inline-flex items-center p-2 text-sm font-semibold rounded-sm dark:bg-white text-slate-800'>
+        <span className=' mr-2 inline-flex items-center p-2 text-sm font-semibold rounded-sm bg-white text-slate-800'>
           <svg
             xmlns='http://www.w3.org/2000/svg'
             className='h-5 w-5'

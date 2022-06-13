@@ -4,6 +4,7 @@ import NavBar from './NavBar'
 import Hero from './Hero'
 import Table from './Table'
 import Paggination from './Paggination'
+import TableModal from './table_resource/modals/TableModal'
 
 function Body() {
   return (
@@ -26,7 +27,9 @@ function Body() {
             </div>
             <Hero />
             <div>
+              <TableModal />
               <Table />
+
               <Paggination />
             </div>
           </div>

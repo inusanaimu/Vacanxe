@@ -5,7 +5,7 @@ function NavBar() {
         <div>
           <div className='container flex flex-wrap justify-between items-center mx-auto'>
             <a href='#' className='flex items-center'>
-              <span className='self-center text-xl font-bold whitespace-nowrap dark:text-black'>
+              <span className='self-center text-xl font-bold whitespace-nowrap text-black'>
                 My job ads
               </span>
             </a>
@@ -24,7 +24,7 @@ function NavBar() {
                 <input
                   type='text'
                   id='search-navbar'
-                  className='block py-2 pl-10 pr-20 w-full text-gray-900 bg-gray-50 rounded-md border border-gray-300 sm:text-sm   dark:border-gray-200 dark:placeholder-gray-600 dark:text-black'
+                  className='block py-2 pl-10 pr-20 w-full bg-gray-50 rounded-md border sm:text-sm   border-gray-200 placeholder-gray-600 text-black'
                   placeholder='Input job title'
                 />
               </div>
