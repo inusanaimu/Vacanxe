@@ -1,0 +1,42 @@
+export const tableContent = [
+  {
+    key: 1,
+    positionName: 'Digital Markerting',
+    employment: 'Contract',
+    dateClosed: '30 June 2022',
+    applicants: '103',
+    boost: true,
+  },
+  {
+    key: 2,
+    positionName: 'Technical support',
+    employment: 'Full time',
+    dateClosed: '30 June 2022',
+    applicants: '103',
+    boost: false,
+  },
+  {
+    key: 3,
+    positionName: 'UX/UI Designer',
+    employment: 'Full time',
+    dateClosed: '30 June 2022',
+    applicants: '103',
+    boost: true,
+  },
+  {
+    key: 4,
+    positionName: 'Hr Executive',
+    employment: 'Full time',
+    dateClosed: '30 June 2022',
+    applicants: '103',
+    boost: false,
+  },
+  {
+    key: 5,
+    positionName: 'Management Trainee',
+    employment: 'Full time',
+    dateClosed: '30 June 2022',
+    applicants: '103',
+    boost: false,
+  },
+]

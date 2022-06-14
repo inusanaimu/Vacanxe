@@ -3,8 +3,8 @@ function Hero() {
     <div className='grid grid-cols-2 border pb-0 pt-2 px-10 bg-white'>
       <div className='pb-0 mb-0 relative'>
         <ul className=' text-sm absolute bottom-0'>
-          <li className='px-2 border-b-4 pb-0 mb-0 border-gray-800 inline-block'>
-            <a href='#' className='pb-0 mb-0'>
+          <li className='mr-2  border-b-4 p-0 mb-0 border-gray-800 inline-block'>
+            <a href='#' className=' mb-0 p-0'>
               Active
               <sup className='ml-1'>
                 <span className='inline-flex items-center p-1 text-sm font-semibold rounded-full bg-cyan-500 text-white'>

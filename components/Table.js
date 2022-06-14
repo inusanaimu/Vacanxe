@@ -1,6 +1,9 @@
 import TableRow from './table_resource/TableRow'
+import { tableContent } from './table_resource/tableContent'
 
 function Table() {
+  const tbContent = tableContent
+
   return (
     <div>
       <div className='w-11/12 mt-8 mx-auto overflow-x-auto '>
@@ -81,21 +84,16 @@ function Table() {
             </tr>
           </thead>
           <tbody>
-            <tr className='border-b text-gray-900 bg-white border-slate-200  hover:bg-slate-100'>
-              <TableRow valid={true} />
-            </tr>
-            <tr className='border-b  text-gray-900 bg-white border-slate-200  hover:bg-slate-100'>
-              <TableRow valid={false} />
-            </tr>
-            <tr className='border-b  text-gray-900 bg-white border-slate-200  hover:bg-slate-100'>
-              <TableRow valid={true} />
-            </tr>
-            <tr className='border-b  text-gray-900 bg-white border-slate-200  hover:bg-slate-100'>
-              <TableRow valid={false} />
-            </tr>
-            <tr className='border-b  text-gray-900 bg-white border-slate-200  hover:bg-slate-100'>
-              <TableRow valid={false} />
-            </tr>
+            {tbContent.map((item) => {
+              return (
+                <tr
+                  key={item.key}
+                  className='border-b text-gray-900 bg-white border-slate-200  hover:bg-slate-100'
+                >
+                  <TableRow item={item} />
+                </tr>
+              )
+            })}
           </tbody>
         </table>
       </div>
