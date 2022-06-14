@@ -1,4 +1,5 @@
 import Image from 'next/dist/client/image'
+
 import Logo from '../public/logo.svg'
 
 function SideBar() {

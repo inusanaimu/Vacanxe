@@ -94,7 +94,7 @@ function Table() {
               <TableRow valid={false} />
             </tr>
             <tr className='border-b  text-gray-900 bg-white border-slate-200  hover:bg-slate-100'>
-              <TableRow valid={false} />{' '}
+              <TableRow valid={false} />
             </tr>
           </tbody>
         </table>
