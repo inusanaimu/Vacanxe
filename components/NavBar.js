@@ -1,3 +1,5 @@
+import Image from 'next/dist/client/image'
+
 function NavBar() {
   return (
     <div>
@@ -58,11 +60,19 @@ function NavBar() {
               </div>
               <div className='rounded-full h-6 w-6 mr-4'>
                 <div className=' rounded-full bg-orange-400 h-2 w-2'></div>
-                <img src='/calender.svg' className='h-[16px] w-[16px]' />
+                <Image
+                  alt='cal'
+                  src='/calender.svg'
+                  className='h-[16px] w-[16px]'
+                />
               </div>
               <div className='rounded-full h-6 w-6 mr-4'>
                 <div className='rounded-full bg-orange-400 h-2 w-2'></div>
-                <img src='/bell.svg' className='h-[16px] w-[16px]' />
+                <Image
+                  src='/bell.svg'
+                  alt='bell'
+                  className='h-[16px] w-[16px]'
+                />
               </div>
             </div>
           </div>
