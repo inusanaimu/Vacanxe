@@ -25,7 +25,7 @@ export const tableContent = [
   },
   {
     key: 4,
-    positionName: 'Hr Executive',
+    positionName: 'HR Executive',
     employment: 'Full time',
     dateClosed: '30 June 2022',
     applicants: '103',
