@@ -8,7 +8,7 @@ import Paggination from './Paggination'
 function Body() {
   return (
     <>
-      <div className='bg-blue-50'>
+      <div className='bg-blue-50 overscroll-none'>
         <div className='flex flex-row'>
           {/* side bar div */}
           <div className=' flex flex-row'>

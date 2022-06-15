@@ -21,7 +21,7 @@ function Table() {
                     fill='none'
                     viewBox='0 0 24 24'
                     stroke='currentColor'
-                    strokeWidth={1.5}
+                    strokeWidth={1}
                   >
                     <path
                       strokeLinecap='round'
@@ -33,10 +33,10 @@ function Table() {
                 </div>
               </th>
               <th scope='col' className='py-1'>
-                <div className='px-6 py-2 border-r'>Employment</div>
+                <div className='pl-1 pr-3 py-2 border-r'>Employment</div>
               </th>
               <th scope='col' className='py-1'>
-                <div className='px-6 py-2 border-r'>
+                <div className='pl-2 pr-3 py-2 border-r'>
                   {' '}
                   <svg
                     xmlns='http://www.w3.org/2000/svg'
@@ -44,7 +44,7 @@ function Table() {
                     fill='none'
                     viewBox='0 0 24 24'
                     stroke='currentColor'
-                    strokeWidth={1.5}
+                    strokeWidth={1}
                   >
                     <path
                       strokeLinecap='round'
@@ -56,7 +56,7 @@ function Table() {
                 </div>
               </th>
               <th scope='col' className='py-1'>
-                <div className='px-6 py-2 border-r'>
+                <div className='pl-2 pr-3 py-2 border-r'>
                   {' '}
                   <svg
                     xmlns='http://www.w3.org/2000/svg'
@@ -64,7 +64,7 @@ function Table() {
                     fill='none'
                     viewBox='0 0 24 24'
                     stroke='currentColor'
-                    strokeWidth={1.5}
+                    strokeWidth={1}
                   >
                     <path
                       strokeLinecap='round'

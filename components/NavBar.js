@@ -58,24 +58,11 @@ function NavBar() {
               </div>
               <div className='rounded-full h-6 w-6 mr-4'>
                 <div className=' rounded-full bg-orange-400 h-2 w-2'></div>
-                <svg
-                  xmlns='http://www.w3.org/2000/svg'
-                  className='h-6 w-6 text-slate-800'
-                  fill='none'
-                  viewBox='0 0 24 24'
-                  stroke='currentColor'
-                  strokeWidth={2}
-                >
-                  <path
-                    strokeLinecap='round'
-                    strokeLinejoin='round'
-                    d='M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z'
-                  />
-                </svg>
+                <img src='/calender.svg' className='h-[16px] w-[16px]' />
               </div>
               <div className='rounded-full h-6 w-6 mr-4'>
                 <div className='rounded-full bg-orange-400 h-2 w-2'></div>
-                <img src="/bell.svg" className="h-[16px] w-[16px]" />
+                <img src='/bell.svg' className='h-[16px] w-[16px]' />
               </div>
             </div>
           </div>

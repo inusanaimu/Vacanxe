@@ -3,8 +3,13 @@ import Image from 'next/dist/client/image'
 import Logo from '../public/logo.svg'
 
 function SideBar() {
+  const handleClick = (id) => {
+    let ele = document.getElementById(id)
+    ele.classList.toggle('hidden')
+    ele.classList.toggle('block')
+  }
   return (
-    <div className='bg-white p-4 flex flex-col space-y-4'>
+    <div className='bg-white p-4 flex flex-col space-y-4 h-full'>
       <div className=' pl-10  mb-6'>
         {/* <a href='#'>
           <Logo />
@@ -12,9 +17,14 @@ function SideBar() {
         <Image src={'/Logo.svg'} alt='logo' height={40} width={138} />
       </div>
       <div className=''>
-        <div>
+        <div className='mb-6'>
           <a href='#'>
-            <div className='flex justify-between'>
+            <div
+              className='flex justify-between '
+              onClick={() => {
+                handleClick('jobOpening')
+              }}
+            >
               <h3 className='inline'>
                 <b>Job opening </b>
               </h3>
@@ -32,13 +42,13 @@ function SideBar() {
               </span>
             </div>
           </a>
-        </div>
-        <div className='text-xs w-11/12 pl-2 block py-3 '>
-          <h3 className=' p-2'>Creating job ads</h3>
-          <h3 className=' p-2 rounded bg-slate-800 text-white'>
-            Managing current job ads
-          </h3>
-          <h3 className=' p-2'>Pre-employment assessment</h3>
+          <div className='text-xs w-11/12 pl-2 py-3 hidden ' id='jobOpening'>
+            <h3 className=' p-2'>Creating job ads</h3>
+            <h3 className=' p-2 rounded bg-slate-800 text-white'>
+              Managing current job ads
+            </h3>
+            <h3 className=' p-2'>Pre-employment assessment</h3>
+          </div>
         </div>
         <div className=' mb-6'>
           <a href='#'>
