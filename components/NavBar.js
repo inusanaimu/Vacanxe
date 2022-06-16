@@ -60,19 +60,11 @@ function NavBar() {
               </div>
               <div className='rounded-full h-6 w-6 mr-4'>
                 <div className=' rounded-full bg-orange-400 h-2 w-2'></div>
-                <Image
-                  alt='cal'
-                  src='/calender.svg'
-                  className='h-[16px] w-[16px]'
-                />
+                <Image alt='cal' src='/calender.svg' width={16} height={16} />
               </div>
               <div className='rounded-full h-6 w-6 mr-4'>
                 <div className='rounded-full bg-orange-400 h-2 w-2'></div>
-                <Image
-                  src='/bell.svg'
-                  alt='bell'
-                  className='h-[16px] w-[16px]'
-                />
+                <Image src='/bell.svg' alt='bell' width={16} height={16} />
               </div>
             </div>
           </div>
