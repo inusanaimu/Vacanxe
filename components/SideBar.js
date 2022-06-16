@@ -42,7 +42,10 @@ function SideBar() {
               </span>
             </div>
           </a>
-          <div className='text-xs w-11/12 pl-2 py-3 hidden ' id='jobOpening'>
+          <div
+            className='text-xs w-11/12 pl-2 py-3 hidden z-10 '
+            id='jobOpening'
+          >
             <h3 className=' p-2'>Creating job ads</h3>
             <h3 className=' p-2 rounded bg-slate-800 text-white'>
               Managing current job ads

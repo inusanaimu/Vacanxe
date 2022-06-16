@@ -4,7 +4,7 @@ import Example from './modals/Example'
 
 function TableRow(prop) {
   const props = prop.item
-  console.log(props)
+
   return (
     <>
       <td className='w-4 p-1'>
