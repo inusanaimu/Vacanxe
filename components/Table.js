@@ -13,7 +13,7 @@ function Table() {
               <th scope='col' className='p-1'>
                 <div className='flex items-center p-3 border-r-2'></div>
               </th>
-              <th scope='col' className='py-1'>
+              <th scope='col' className='py-1 font-medium'>
                 <div className='px-6 py-2 border-r'>
                   <svg
                     xmlns='http://www.w3.org/2000/svg'
@@ -32,7 +32,7 @@ function Table() {
                   Position name
                 </div>
               </th>
-              <th scope='col' className='py-1'>
+              <th scope='col' className='py-1 font-medium'>
                 <div className='pl-1 pr-3 py-2 border-r'>Employment</div>
               </th>
               <th scope='col' className='py-1'>
@@ -55,7 +55,7 @@ function Table() {
                   Date closed
                 </div>
               </th>
-              <th scope='col' className='py-1'>
+              <th scope='col' className='py-1 font-medium'>
                 <div className='pl-2 pr-3 py-2 border-r'>
                   {' '}
                   <svg
@@ -75,7 +75,7 @@ function Table() {
                   Applicants
                 </div>
               </th>
-              <th scope='col' className='py-1'>
+              <th scope='col' className='py-1 font-medium'>
                 <div className='px-6 py-2 border-r'>Boost job</div>
               </th>
               <th scope='col' className='px-6 py-3'>

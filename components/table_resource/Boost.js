@@ -75,11 +75,11 @@ const Btn = (props) => {
             </div>
           </Dialog>
         </Transition>
-        <a href='#' className=' text-center font-medium '>
+        <a href='#' className=' text-center '>
           <button
             onClick={openModal}
             type='button'
-            className='w-36 text-xs rounded-md bg-slate-300 px-3 py-2 text-gray-600'
+            className='w-36 text-xs font-sans rounded-md bg-slate-300 px-3 py-2 text-gray-600'
           >
             <b>
               <svg
