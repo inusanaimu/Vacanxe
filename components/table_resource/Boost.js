@@ -40,10 +40,10 @@ const Btn = (props) => {
                   leaveFrom='opacity-100 scale-100'
                   leaveTo='opacity-0 scale-95'
                 >
-                  <Dialog.Panel className='bg-white rounded-md p-6 h-60 w-120 w-full max-w-md transform overflow-hidden text-left align-middle shadow-xl transition-all'>
+                  <Dialog.Panel className='bg-white rounded-md p-6 h-60 w-120 max-w-md transform overflow-hidden text-left align-middle shadow-xl transition-all'>
                     <Dialog.Title
                       as='h3'
-                      className='text-md font-medium leading-6 text-gray-900'
+                      className='text-sm font-medium leading-6 text-gray-900'
                     >
                       <h3 className='  mb-4 '>
                         Your <b> visa</b> will be charged for{' '}
@@ -51,7 +51,7 @@ const Btn = (props) => {
                         <b> boosting Managment Trainee</b> job ad
                       </h3>
                     </Dialog.Title>
-                    <h4 className='mb-2 text-md'>
+                    <h4 className='mb-2 text-sm'>
                       To confirm your payment, please input your password
                     </h4>
                     <div className='my-4'>

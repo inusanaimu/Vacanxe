@@ -1,6 +1,6 @@
 import Boost from './Boost'
 import CheckBox from './CheckBox'
-import Example from './modals/Example'
+import EditModal from './modals/EditModal'
 
 function TableRow(prop) {
   const props = prop.item
@@ -31,7 +31,7 @@ function TableRow(prop) {
       </td>
       <td className='px py-3 text-center'>
         <a href='#' className=' text-center font-medium '>
-          <Example />
+          <EditModal />
         </a>
       </td>
     </>
