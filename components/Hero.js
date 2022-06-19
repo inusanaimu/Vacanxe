@@ -1,15 +1,15 @@
 function Hero() {
   return (
-    <div className='grid grid-cols-2 border pb-0 pt-2 px-10 bg-white'>
+    <div className='grid grid-cols-2 border pb-0 pt-2 md:px-10 px-2 bg-white'>
       <div className='pb-0 mb-0 relative'>
-        <ul className=' text-sm absolute bottom-0'>
-          <li className='mr-2  border-b-4 p-0 mb-0 border-gray-800 inline-block'>
+        <ul className=' md:text-sm text-xs absolute bottom-0'>
+          <li className='mr-2  border-b-4 pb-0 mb-0 border-gray-800 inline-block'>
             <a href='#' className=' mb-0 p-0'>
               Active
               <sup className='ml-1'>
                 <span className='inline-flex items-center p-1 text-sm font-semibold rounded-full bg-cyan-500 text-white'>
                   <svg
-                    className='w-3 h-3'
+                    className='md:w-3 md:h-3 w-2 h-2'
                     fill='currentColor'
                     viewBox='0 0 20 20'
                     xmlns='http://www.w3.org/2000/svg'
@@ -30,7 +30,7 @@ function Hero() {
               <sup className='ml-1'>
                 <span className='inline-flex items-center p-1 text-sm font-semibold rounded-full bg-orange-300 text-white'>
                   <svg
-                    className='w-3 h-3'
+                    className='md:w-3 md:h-3 w-2 h-2'
                     fill='currentColor'
                     viewBox='0 0 20 20'
                     xmlns='http://www.w3.org/2000/svg'
@@ -51,7 +51,7 @@ function Hero() {
               <sup className='ml-1'>
                 <span className='inline-flex items-center p-1 text-sm font-semibold  rounded-full bg-gray-700 text-white'>
                   <svg
-                    className='w-3 h-3'
+                    className='md:w-3 md:h-3 w-2 h-2'
                     fill='currentColor'
                     viewBox='0 0 20 20'
                     xmlns='http://www.w3.org/2000/svg'
@@ -69,7 +69,7 @@ function Hero() {
         </ul>
       </div>
       <div className='text-right py-2 px-2'>
-        <button className='text-slate-100 text-sm rounded-md mx-auto w-44 bg-cyan-600 text-center px-4 py-2'>
+        <button className='text-slate-100 md:text-sm text-xs rounded-md mx-auto md:w-44 bg-cyan-600 text-center md:px-4 p-2'>
           Create job ad
         </button>
       </div>

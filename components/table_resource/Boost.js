@@ -79,7 +79,7 @@ const Btn = (props) => {
           <button
             onClick={openModal}
             type='button'
-            className='w-36 text-xs font-sans rounded-md bg-slate-300 px-3 py-2 text-gray-600'
+            className='md:w-36 w-24 text-xs font-sans rounded-md bg-slate-300 px-3 py-2 text-gray-600'
           >
             <b>
               <svg
@@ -169,7 +169,7 @@ const Btn = (props) => {
           <button
             onClick={openModal}
             type='button'
-            className='w-36 text-xs rounded-md px-3 py-2 text-gray-800 bg-orange-300'
+            className='md:w-36 w-24 text-xs rounded-md px-3 py-2 text-gray-800 bg-orange-300'
           >
             <b>
               <svg

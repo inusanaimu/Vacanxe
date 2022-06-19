@@ -3,16 +3,16 @@ import Image from 'next/dist/client/image'
 function NavBar() {
   return (
     <div>
-      <nav className=' bg-white  w-full px-2 sm:px-4 py-2.5 mx-auto border'>
+      <nav className=' bg-white w-full  md:px-4 p-2 mx-auto border'>
         <div>
-          <div className='container flex flex-wrap justify-between items-center mx-auto'>
-            <a href='#' className='flex items-center'>
-              <span className='self-center text-xl font-bold whitespace-nowrap text-black'>
+          <div className='flex flex-wrap  justify-between  items-center mx-auto'>
+            <a href='#' className='items-center'>
+              <span className='text-xl font-bold whitespace-nowrap text-black'>
                 My job ads
               </span>
             </a>
             <div className='flex md:order-2'>
-              <div className='relative md:block'>
+              <div className='relative hidden md:flex'>
                 <div className='flex absolute inset-y-0 left-0 items-center pl-3 pointer-events-none'>
                   <svg
                     className='w-5 h-5 text-gray-500'
@@ -48,7 +48,7 @@ function NavBar() {
                       />
                     </svg>
                   </div>
-                  <div className='flex flex-col pl-2'>
+                  <div className='sm:flex flex-col pl-2 hidden'>
                     <strong className=' leading-5 '>
                       <b>John Doe</b>
                     </strong>
@@ -69,7 +69,7 @@ function NavBar() {
             </div>
           </div>
         </div>
-        <div className='text-slate-400 inline-block text-sm'>
+        <div className='text-slate-400 inline-block text-xs md:text-sm'>
           {' '}
           Jobs and recruiting / Job opening /{' '}
           <a href='#' className='text-cyan-500'>

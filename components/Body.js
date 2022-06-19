@@ -8,14 +8,14 @@ import Paggination from './Paggination'
 function Body() {
   return (
     <>
-      <div className='bg-blue-50 overflow-hidden'>
+      <div className='bg-blue-50 overflow-hidden h-screen'>
         <div className='flex flex-row'>
           {/* side bar div */}
-          <div className=' flex flex-row'>
-            <div className='w-12 md:w-68 '>
+          <div className=' md:flex flex-row hidden'>
+            <div className='md:block  w-12 w-68 '>
               <SideStrip />
             </div>
-            <div className='w-64 lg:w-296 bg-slate-100 h-full border'>
+            <div className='lg:block hidden w-64 lg:w-296 bg-slate-100 h-full border'>
               <SideBar />
             </div>
           </div>

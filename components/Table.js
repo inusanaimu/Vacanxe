@@ -6,15 +6,15 @@ function Table() {
 
   return (
     <div>
-      <div className='w-11/12 mt-8 mx-auto overflow-x-auto '>
+      <div className='w-full mx-1 md:w-11/12 mt-8 md:mx-auto overflow-x-auto '>
         <table className='w-full text-sm border text-left text-gray-400'>
           <thead className='text-sm capitalize bg-gray-900 text-gray-100'>
             <tr>
-              <th scope='col' className='p-1'>
-                <div className='flex items-center p-3 border-r-2'></div>
+              <th scope='col' className='py-1'>
+                <div className='flex items-center md:px-1'></div>
               </th>
               <th scope='col' className='py-1 font-medium'>
-                <div className='px-6 py-2 border-r'>
+                <div className='px-4 py-2 border-r md:px-1'>
                   <svg
                     xmlns='http://www.w3.org/2000/svg'
                     className='h-6 w-6 inline'
@@ -33,10 +33,12 @@ function Table() {
                 </div>
               </th>
               <th scope='col' className='py-1 font-medium'>
-                <div className='pl-1 pr-3 py-2 border-r'>Employment</div>
+                <div className='pl-1 pr-3 py-2 border-r md:px-1'>
+                  Employment
+                </div>
               </th>
-              <th scope='col' className='py-1'>
-                <div className='pl-2 pr-3 py-2 border-r'>
+              <th scope='col' className='py-1 font-medium'>
+                <div className='pl-2 pr-3 py-2 border-r md:px-1'>
                   {' '}
                   <svg
                     xmlns='http://www.w3.org/2000/svg'
@@ -56,7 +58,7 @@ function Table() {
                 </div>
               </th>
               <th scope='col' className='py-1 font-medium'>
-                <div className='pl-2 pr-3 py-2 border-r'>
+                <div className='pl-2 pr-3 py-2 border-r md:px-1'>
                   {' '}
                   <svg
                     xmlns='http://www.w3.org/2000/svg'
